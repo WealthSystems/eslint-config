@@ -1,0 +1,32 @@
+{
+    "name": "@wealthsystems/eslint-config",
+    "version": "0.0.0",
+    "description": "Wealth Systems' ESLint configuration",
+    "author": "Wealth Systems Informática Ltda.",
+    "license": "MIT",
+    "scripts": {},
+    "peerDependencies": {},
+    "dependencies": {},
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/WealthSystems/eslint-config.git"
+    },
+    "bugs": {
+        "url": "https://github.com/WealthSystems/eslint-config/issues"
+    },
+    "homepage": "https://github.com/WealthSystems/eslint-config#readme",
+    "keywords": [
+        "lint",
+        "javascript",
+        "react",
+        "eslint",
+        "eslint-config",
+        "eslint-shared-config",
+        "es2015",
+        "es2016",
+        "es2017",
+        "es2018",
+        "es2019"
+    ]
+}
