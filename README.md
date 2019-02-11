@@ -1,6 +1,6 @@
 # @WealthSystems/eslint-config
 
-The [ESLint](https://eslint.org) shared configuration to be used in all JavaScript project's across Wealth Ssytems.
+The [ESLint](https://eslint.org) shared configuration to be used in all JavaScript project's across Wealth Systems.
 
 ## Requirements
 
