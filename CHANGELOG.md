@@ -6,6 +6,7 @@
 
 - multiline-comment-style: disabled
 - no-shadow: allow shadow confusing browser globals
+- import/no-extraneous-dependencies: allow devDependencies under `config/**`
 
 ## 1.0.0-alpha.2 - 2019-02-12
 

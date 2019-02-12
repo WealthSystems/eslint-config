@@ -557,6 +557,7 @@ module.exports = {
         'import/no-dynamic-require': 'error',
         'import/no-extraneous-dependencies': ['error', {
             devDependencies: [
+                'config/**',
                 'scripts/**',
                 'test/**',
                 'tests/**',
