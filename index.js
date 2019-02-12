@@ -169,7 +169,7 @@ module.exports = {
         'max-params': 'off',
         'max-statements-per-line': 'off',
         'max-statements': 'off',
-        'multiline-comment-style': ['error', 'starred-block'],
+        'multiline-comment-style': 'off',
         'multiline-ternary': 'off',
         'new-cap': ['error', {
             capIsNew: true,
