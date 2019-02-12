@@ -4,6 +4,7 @@
 
 ### Changed
 
+- Moved ESLint Plugins from `dependencies` to `peerDependencies`
 - import/extensions: Ignore extension validation on package import
 
 ### Fixed

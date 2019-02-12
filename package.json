@@ -10,18 +10,22 @@
         "lint": "eslint ."
     },
     "peerDependencies": {
-        "eslint": "^5.12.0"
+        "eslint": "^5.12.0",
+        "eslint-plugin-import": "^2.16.0",
+        "eslint-plugin-promise": "^4.0.0",
+        "eslint-plugin-react": "^7.12.0",
+        "eslint-plugin-unicorn": "^7.1.0"
     },
     "dependencies": {
-        "confusing-browser-globals": "^1.0.5",
+        "confusing-browser-globals": "^1.0.5"
+    },
+    "devDependencies": {
+        "eslint": "^5.12.0",
+        "eslint-find-rules": "^3.3.1",
         "eslint-plugin-import": "^2.16.0",
         "eslint-plugin-promise": "^4.0.1",
         "eslint-plugin-react": "^7.12.4",
         "eslint-plugin-unicorn": "^7.1.0"
-    },
-    "devDependencies": {
-        "eslint": "^5.12.0",
-        "eslint-find-rules": "^3.3.1"
     },
     "repository": {
         "type": "git",
