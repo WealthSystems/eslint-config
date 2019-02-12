@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Added
+
+- Engine validation for Node >= 8
+
 ### Changed
 
 - Moved ESLint Plugins from `dependencies` to `peerDependencies`

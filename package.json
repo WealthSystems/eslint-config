@@ -4,6 +4,9 @@
     "description": "Wealth Systems' ESLint configuration",
     "author": "Wealth Systems Informática Ltda.",
     "license": "MIT",
+    "engines": {
+        "node": ">= 8"
+    },
     "main": "index.js",
     "scripts": {
         "test": "eslint-find-rules --unused",
