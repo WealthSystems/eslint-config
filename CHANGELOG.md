@@ -5,6 +5,7 @@
 ### Changed
 
 - multiline-comment-style: disabled
+- no-shadow: allow shadow confusing browser globals
 
 ## 1.0.0-alpha.2 - 2019-02-12
 

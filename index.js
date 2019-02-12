@@ -360,6 +360,7 @@ module.exports = {
         'no-shadow-restricted-names': 'error',
         'no-shadow': ['error', {
             builtinGlobals: true,
+            allow: confusingBrowserGlobals,
         }],
         'no-sparse-arrays': 'error',
         'no-sync': 'off',
