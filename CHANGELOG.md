@@ -1,6 +1,16 @@
 # Changelog
 
-## [1.0.0-alpha.1] - 2019-02-8
+## Unreleased
+
+### Changed
+
+- import/extensions: Ignore extension validation on package import
+
+### Fixed
+
+- Fixed some typos
+
+## 1.0.0-alpha.1 - 2019-02-08
 
 ### Added
 
