@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.0-alpha.2 - 2019-02-12
 
 ### Added
 
