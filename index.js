@@ -672,7 +672,7 @@ module.exports = {
         }],
         'react/prop-types': 'error',
         'react/react-in-jsx-scope': 'error',
-        'react/require-default-props': ['error', {
+        'react/require-default-props': ['off', {
             forbidDefaultForRequired: true,
         }],
         'react/require-optimization': ['warn', {

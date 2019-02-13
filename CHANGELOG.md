@@ -5,6 +5,7 @@
 ### Changed
 
 - react/forbid-prop-types: allow 'any' and 'object'
+- react/require-default-props: turn off
 
 ## 1.0.0-alpha.3 - 2019-02-12
 
