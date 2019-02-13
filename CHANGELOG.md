@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- react/forbid-prop-types: allow 'any' and 'object'
+
 ## 1.0.0-alpha.3 - 2019-02-12
 
 ### Changed

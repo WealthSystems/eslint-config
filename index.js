@@ -636,10 +636,7 @@ module.exports = {
         'react/forbid-prop-types': ['error', {
             checkChildContextTypes: true,
             checkContextTypes: true,
-            forbid: [
-                'any',
-                'object',
-            ],
+            forbid: [],
         }],
         'react/no-access-state-in-setstate': 'error',
         'react/no-array-index-key': 'error',
