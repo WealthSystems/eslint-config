@@ -54,7 +54,7 @@ module.exports = {
             properties: 'always',
         }],
         'capitalized-comments': 'off',
-        'class-methods-use-this': 'error',
+        'class-methods-use-this': 'off',
         'comma-dangle': ['error', {
             arrays: 'always-multiline',
             exports: 'always-multiline',
@@ -69,7 +69,7 @@ module.exports = {
         'comma-style': ['error', 'last'],
         complexity: 'off',
         'computed-property-spacing': ['error', 'never'],
-        'consistent-return': ['error', {
+        'consistent-return': ['warn', {
             treatUndefinedAsUnspecified: false,
         }],
         'consistent-this': 'off',
@@ -149,7 +149,9 @@ module.exports = {
             beforeBlockComment: true,
             afterBlockComment: false,
         }],
-        'lines-between-class-members': ['error', 'always'],
+        'lines-between-class-members': ['error', 'always', {
+            exceptAfterSingleLine: true,
+        }],
         'max-classes-per-file': ['error', 1],
         'max-depth': 'off',
         'max-len': ['error', {
@@ -174,7 +176,7 @@ module.exports = {
         'new-cap': ['error', {
             capIsNew: true,
             newIsCap: true,
-            properties: true,
+            properties: false,
         }],
         'new-parens': 'error',
         'newline-per-chained-call': ['error', {
@@ -251,7 +253,7 @@ module.exports = {
         'no-inline-comments': 'off',
         'no-inner-declarations': 'error',
         'no-invalid-regexp': 'error',
-        'no-invalid-this': 'error',
+        'no-invalid-this': 'off',
         'no-irregular-whitespace': 'error',
         'no-iterator': 'error',
         'no-label-var': 'error',
@@ -282,7 +284,7 @@ module.exports = {
         'no-octal-escape': 'error',
         'no-octal': 'error',
         'no-param-reassign': ['error', {
-            props: true,
+            props: false,
         }],
         'no-path-concat': 'error',
         'no-plusplus': ['error', {
@@ -389,11 +391,7 @@ module.exports = {
         'no-unreachable': 'error',
         'no-unsafe-finally': 'error',
         'no-unsafe-negation': 'error',
-        'no-unused-expressions': ['error', {
-            allowShortCircuit: false,
-            allowTaggedTemplates: false,
-            allowTernary: false,
-        }],
+        'no-unused-expressions': 'off',
         'no-unused-labels': 'error',
         'no-unused-vars': 'error',
         'no-use-before-define': ['error', {
@@ -451,22 +449,7 @@ module.exports = {
             destructuring: 'any',
             ignoreReadBeforeAssign: true,
         }],
-        'prefer-destructuring': [
-            'error',
-            {
-                AssignmentExpression: {
-                    array: false,
-                    object: true,
-                },
-                VariableDeclarator: {
-                    array: false,
-                    object: true,
-                },
-            },
-            {
-                enforceForRenamedProperties: false,
-            },
-        ],
+        'prefer-destructuring': 'off',
         'prefer-numeric-literals': 'error',
         'prefer-object-spread': 'error',
         'prefer-promise-reject-errors': 'error',
@@ -600,7 +583,7 @@ module.exports = {
             ],
             'newlines-between': 'never',
         }],
-        'import/prefer-default-export': 'error',
+        'import/prefer-default-export': 'off',
         'import/unambiguous': 'off',
         'promise/always-return': 'error',
         'promise/avoid-new': 'off',
@@ -616,7 +599,7 @@ module.exports = {
         'promise/no-return-wrap': 'error',
         'promise/param-names': 'error',
         'promise/prefer-await-to-callbacks': 'error',
-        'promise/prefer-await-to-then': 'error',
+        'promise/prefer-await-to-then': 'off',
         'promise/valid-params': 'off',
         'react/boolean-prop-naming': 'off',
         'react/button-has-type': ['error', {
@@ -627,7 +610,7 @@ module.exports = {
         'react/default-props-match-prop-types': ['error', {
             allowRequiredDefaults: false,
         }],
-        'react/destructuring-assignment': ['error', 'always'],
+        'react/destructuring-assignment': 'off',
         'react/display-name': 'off',
         'react/forbid-component-props': 'off',
         'react/forbid-dom-props': 'off',
@@ -693,7 +676,8 @@ module.exports = {
                 'getters',
                 'setters',
                 '/^(get|set).+$/',
-                '/^fetch.+$/',
+                '/^fetch.*$/',
+                '/^load.*$/',
                 '/^handle.+$/',
                 'instance-methods',
                 'everything-else',
@@ -748,7 +732,7 @@ module.exports = {
         }],
         'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
         'react/jsx-fragments': ['error', 'element'],
-        'react/jsx-handler-names': ['error', {
+        'react/jsx-handler-names': ['warn', {
             eventHandlerPrefix: 'handle',
             eventHandlerPropPrefix: 'on',
         }],
@@ -763,8 +747,8 @@ module.exports = {
             when: 'multiline',
         }],
         'react/jsx-no-bind': ['error', {
-            allowArrowFunctions: false,
-            allowBind: false,
+            allowArrowFunctions: true,
+            allowBind: true,
             allowFunctions: false,
             ignoreDOMComponents: false,
             ignoreRefs: false,

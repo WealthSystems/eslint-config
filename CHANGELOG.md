@@ -1,5 +1,23 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- class-methods-use-this: turned off
+- consistent-return: changed to warn
+- lines-between-class-members: allowed after single line
+- new-cap: allowed to properties
+- no-invalid-this: turned off
+- no-param-reassign: allowed to properties
+- no-unused-expressions: turned off
+- prefer-destructuring: turned off
+- import/prefer-default-export: turned off
+- promise/prefer-await-to-then: turned off
+- react/destructuring-assignment: turned off
+- react/sort-comp: changed patterns
+- react/jsx-handler-names: changed to warn
+
 ## 1.0.0-alpha.4 - 2019-02-13
 
 ### Changed
