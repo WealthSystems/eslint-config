@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- eqeqeq: allow non-strict equality when comparing with the `null` literal
+
 ## 1.0.0-alpha.5 - 2019-04-11
 
 ### Changed

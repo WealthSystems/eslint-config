@@ -84,7 +84,7 @@ module.exports = {
         }],
         'eol-last': ['error', 'always'],
         eqeqeq: ['error', 'always', {
-            null: 'always',
+            null: 'ignore',
         }],
         'for-direction': 'error',
         'func-call-spacing': ['error', 'never'],
