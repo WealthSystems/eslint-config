@@ -5,6 +5,7 @@
 ### Changed
 
 - camelcase: allow UNSAFE React methods
+- react/sort-comp: use default lifecycle group
 
 ## 1.0.0-alpha.6 - 2019-04-15
 
