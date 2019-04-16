@@ -6,6 +6,7 @@
 
 - camelcase: allow UNSAFE React methods
 - react/sort-comp: use default lifecycle group
+- react/no-unsafe: changed to warn
 
 ## 1.0.0-alpha.6 - 2019-04-15
 

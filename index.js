@@ -646,7 +646,7 @@ module.exports = {
         'react/no-typos': 'error',
         'react/no-unescaped-entities': 'error',
         'react/no-unknown-property': 'error',
-        'react/no-unsafe': 'error',
+        'react/no-unsafe': 'warn',
         'react/no-unused-prop-types': ['error', {
             skipShapeProps: true,
         }],
