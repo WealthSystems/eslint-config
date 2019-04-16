@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- camelcase: allow UNSAFE React methods
+
 ## 1.0.0-alpha.6 - 2019-04-15
 
 ### Changed

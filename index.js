@@ -52,6 +52,9 @@ module.exports = {
         camelcase: ['error', {
             ignoreDestructuring: false,
             properties: 'always',
+            allow: [
+                '^UNSAFE_',
+            ],
         }],
         'capitalized-comments': 'off',
         'class-methods-use-this': 'off',
