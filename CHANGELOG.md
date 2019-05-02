@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- no-eq-null: turned off
+
 ## 1.0.0-alpha.7 - 2019-04-16
 
 ### Changed

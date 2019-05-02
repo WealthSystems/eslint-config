@@ -229,7 +229,7 @@ module.exports = {
         'no-empty': ['error', {
             allowEmptyCatch: false,
         }],
-        'no-eq-null': 'error',
+        'no-eq-null': 'off',
         'no-eval': ['error', {
             allowIndirect: false,
         }],
