@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.0-alpha.8 - 2019-05-02
 
 ### Changed
 
