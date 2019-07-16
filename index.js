@@ -692,6 +692,8 @@ module.exports = {
             ],
         }],
         'react/sort-prop-types': 'off',
+        'react/state-in-constructor': 'off',
+        'react/static-property-placement': ['error', 'static public field'],
         'react/style-prop-object': 'error',
         'react/void-dom-elements-no-children': 'error',
         'react/jsx-boolean-value': ['error', 'never'],
@@ -702,6 +704,7 @@ module.exports = {
             children: 'never',
             props: 'never',
         }],
+        'react/jsx-curly-newline': 'error',
         'react/jsx-curly-spacing': ['error', 'never', {
             allowMultiline: true,
         }],
@@ -719,6 +722,7 @@ module.exports = {
         }],
         'react/jsx-indent': ['error', 4, {
             checkAttributes: true,
+            indentLogicalExpressions: true,
         }],
         'react/jsx-indent-props': ['error', 4],
         'react/jsx-key': 'off',
@@ -748,6 +752,7 @@ module.exports = {
             allowAllCaps: false,
         }],
         'react/jsx-props-no-multi-spaces': 'error',
+        'react/jsx-props-no-spreading': 'off',
         'react/jsx-sort-default-props': 'off',
         'react/jsx-sort-props': ['error', {
             callbacksLast: false,
