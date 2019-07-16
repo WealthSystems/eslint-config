@@ -265,7 +265,7 @@ module.exports = {
         'no-lonely-if': 'error',
         'no-loop-func': 'error',
         'no-magic-numbers': 'off',
-        'no-misleading-character-class': 'off',
+        'no-misleading-character-class': 'error',
         'no-mixed-operators': ['error', {
             allowSamePrecedence: false,
         }],
