@@ -592,6 +592,7 @@ module.exports = {
         'promise/always-return': 'error',
         'promise/avoid-new': 'off',
         'promise/catch-or-return': ['error', {
+            allowFinally: true,
             allowThen: false,
         }],
         'promise/no-callback-in-promise': 'off',
