@@ -296,7 +296,7 @@ module.exports = {
         'no-process-env': 'off',
         'no-process-exit': 'off',
         'no-proto': 'error',
-        'no-prototype-builtins': 'off',
+        'no-prototype-builtins': 'error',
         'no-redeclare': ['error', {
             builtinGlobals: true,
         }],
