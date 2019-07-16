@@ -449,6 +449,7 @@ module.exports = {
             ignoreReadBeforeAssign: true,
         }],
         'prefer-destructuring': 'off',
+        'prefer-named-capture-group': 'off',
         'prefer-numeric-literals': 'error',
         'prefer-object-spread': 'error',
         'prefer-promise-reject-errors': 'error',
