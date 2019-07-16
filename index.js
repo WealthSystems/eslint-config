@@ -196,9 +196,7 @@ module.exports = {
         'no-class-assign': 'error',
         'no-compare-neg-zero': 'error',
         'no-cond-assign': ['error', 'always'],
-        'no-confusing-arrow': ['error', {
-            allowParens: true,
-        }],
+        'no-confusing-arrow': 'error',
         'no-console': 'error',
         'no-const-assign': 'error',
         'no-constant-condition': ['error', {
@@ -297,9 +295,7 @@ module.exports = {
         'no-process-exit': 'off',
         'no-proto': 'error',
         'no-prototype-builtins': 'error',
-        'no-redeclare': ['error', {
-            builtinGlobals: true,
-        }],
+        'no-redeclare': 'error',
         'no-regex-spaces': 'error',
         'no-restricted-globals': ['error', 'isFinite', 'isNaN'].concat(confusingBrowserGlobals),
         'no-restricted-imports': 'off', // import-plugin
