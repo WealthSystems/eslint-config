@@ -1,5 +1,31 @@
 # Changelog
 
+## 1.0.0-alpha.9 - 2019-07-16
+
+### Changed
+
+- no-misleading-character-class: turn on following eslint:recommended
+- no-prototype-builtins: turn on following eslint:recommended
+- remove options that are now default
+- function-paren-newline: change to the new option 'multiline-arguments'
+- prefer-named-capture-group: turn off new rule
+- import/no-unused-modules: turn on new rule to avoid unused files or dead code
+- promise/catch-or-return: allow finally
+- react/no-string-refs: disallow template literals as refs
+- react: configure new rules
+- unicorn: configure new rules
+- react/sort-comp: remove patterns that conflicts with arrow-functions
+
+### Breaking changes
+
+Now requires:
+
+- eslint@^6.0
+- eslint-plugin-import@^2.18
+- eslint-plugin-promise@^4.2
+- eslint-plugin-react@^7.14
+- eslint-plugin-unicorn@^9.1
+
 ## 1.0.0-alpha.8 - 2019-05-02
 
 ### Changed
