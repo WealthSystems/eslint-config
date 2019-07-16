@@ -571,6 +571,10 @@ module.exports = {
             caseSensitive: true,
             commonjs: true,
         }],
+        'import/no-unused-modules': ['error', {
+            missingExports: true,
+            unusedExports: true,
+        }],
         'import/no-useless-path-segments': 'error',
         'import/no-webpack-loader-syntax': 'error',
         'import/order': ['error', {
