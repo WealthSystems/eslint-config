@@ -97,7 +97,7 @@ module.exports = {
         }],
         'func-names': ['error', 'always'],
         'func-style': ['error', 'declaration'],
-        'function-paren-newline': ['error', 'multiline'],
+        'function-paren-newline': ['error', 'multiline-arguments'],
         'generator-star-spacing': ['error', {
             before: false,
             after: true,
