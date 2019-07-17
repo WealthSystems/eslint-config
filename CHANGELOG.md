@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- no-unused-vars: allow destructuring to remove properties
+
 ## 1.0.0-alpha.9 - 2019-07-16
 
 ### Changed

@@ -392,7 +392,9 @@ module.exports = {
         'no-unsafe-negation': 'error',
         'no-unused-expressions': 'off',
         'no-unused-labels': 'error',
-        'no-unused-vars': 'error',
+        'no-unused-vars': ['error', {
+            ignoreRestSiblings: true,
+        }],
         'no-use-before-define': ['error', {
             classes: true,
             functions: true,
