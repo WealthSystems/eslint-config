@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.0-alpha.10 - 2019-07-17
 
 ### Changed
 
