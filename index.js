@@ -635,7 +635,7 @@ module.exports = {
         'react/no-danger-with-children': 'error',
         'react/no-deprecated': 'error',
         'react/no-did-mount-set-state': 'error',
-        'react/no-did-update-set-state': 'error',
+        'react/no-did-update-set-state': 'warn',
         'react/no-direct-mutation-state': 'error',
         'react/no-find-dom-node': 'error',
         'react/no-is-mounted': 'error',
