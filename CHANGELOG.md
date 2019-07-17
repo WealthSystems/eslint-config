@@ -6,6 +6,7 @@
 
 - no-unused-vars: allow destructuring to remove properties
 - react/no-did-update-set-state: change to warn due a lot of valid cases
+- react/require-optimization: turn off
 
 ## 1.0.0-alpha.9 - 2019-07-16
 

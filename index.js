@@ -667,11 +667,7 @@ module.exports = {
         'react/require-default-props': ['off', {
             forbidDefaultForRequired: true,
         }],
-        'react/require-optimization': ['warn', {
-            allowDecorators: [
-                'observer',
-            ],
-        }],
+        'react/require-optimization': 'off',
         'react/require-render-return': 'error',
         'react/self-closing-comp': ['error', {
             component: true,
