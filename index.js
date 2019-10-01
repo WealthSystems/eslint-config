@@ -667,6 +667,7 @@ module.exports = {
         'react/no-unused-state': 'error',
         'react/no-will-update-set-state': 'error',
         'react/prefer-es6-class': ['error', 'always'],
+        'react/prefer-read-only-props': 'off',
         'react/prefer-stateless-function': ['off', { // TODO: Turn on
             ignorePureComponents: true,
         }],
