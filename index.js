@@ -71,7 +71,9 @@ module.exports = {
         }],
         'comma-style': ['error', 'last'],
         complexity: 'off',
-        'computed-property-spacing': ['error', 'never'],
+        'computed-property-spacing': ['error', 'never', {
+            enforceForClassMembers: true,
+        }],
         'consistent-return': ['warn', {
             treatUndefinedAsUnspecified: false,
         }],
@@ -81,6 +83,7 @@ module.exports = {
         'default-case': ['error', {
             commentPattern: '^no default$',
         }],
+        'default-param-last': 'error',
         'dot-location': ['error', 'property'],
         'dot-notation': ['error', {
             allowKeywords: true,
@@ -97,6 +100,7 @@ module.exports = {
         }],
         'func-names': ['error', 'always'],
         'func-style': ['error', 'declaration'],
+        'function-call-argument-newline': ['error', 'consistent'],
         'function-paren-newline': ['error', 'multiline-arguments'],
         'generator-star-spacing': ['error', {
             before: false,
@@ -251,6 +255,7 @@ module.exports = {
         'no-implicit-coercion': 'error',
         'no-implicit-globals': 'error',
         'no-implied-eval': 'error',
+        'no-import-assign': 'error',
         'no-inline-comments': 'off',
         'no-inner-declarations': 'error',
         'no-invalid-regexp': 'error',
@@ -455,6 +460,7 @@ module.exports = {
         'prefer-numeric-literals': 'error',
         'prefer-object-spread': 'error',
         'prefer-promise-reject-errors': 'error',
+        'prefer-regex-literals': 'error',
         'prefer-rest-params': 'error',
         'prefer-spread': 'error',
         'prefer-template': 'error',
@@ -505,7 +511,9 @@ module.exports = {
         'template-curly-spacing': ['error', 'never'],
         'template-tag-spacing': ['error', 'never'],
         'unicode-bom': ['error', 'never'],
-        'use-isnan': 'error',
+        'use-isnan': ['error', {
+            enforceForSwitchCase: true,
+        }],
         'valid-typeof': ['error', {
             requireStringLiterals: true,
         }],
