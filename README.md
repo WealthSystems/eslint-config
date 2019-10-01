@@ -5,11 +5,11 @@ The [ESLint](https://eslint.org) shared configuration to be used in all JavaScri
 ## Requirements
 
 - Node: >= 8
-- eslint: ^5.12.0
-- eslint-plugin-import: ^2.16.0
-- eslint-plugin-promise: ^4.0.0
-- eslint-plugin-react: ^7.12.0
-- eslint-plugin-unicorn: ^7.1.0
+- eslint: ^6.5.0
+- eslint-plugin-import: ^2.18.0
+- eslint-plugin-promise: ^4.2.0
+- eslint-plugin-react: ^7.14.0
+- eslint-plugin-unicorn: ^12.0.0
 
 ## Installation
 

@@ -13,22 +13,22 @@
         "lint": "eslint ."
     },
     "peerDependencies": {
-        "eslint": "^6.0.0",
+        "eslint": "^6.5.0",
         "eslint-plugin-import": "^2.18.0",
         "eslint-plugin-promise": "^4.2.0",
         "eslint-plugin-react": "^7.14.0",
-        "eslint-plugin-unicorn": "^9.1.0"
+        "eslint-plugin-unicorn": "^12.0.0"
     },
     "dependencies": {
-        "confusing-browser-globals": "^1.0.7"
+        "confusing-browser-globals": "^1.0.8"
     },
     "devDependencies": {
-        "eslint": "^6.0.1",
-        "eslint-find-rules": "^3.3.1",
-        "eslint-plugin-import": "^2.18.0",
+        "eslint": "^6.5.1",
+        "eslint-find-rules": "^3.4.0",
+        "eslint-plugin-import": "^2.18.2",
         "eslint-plugin-promise": "^4.2.1",
-        "eslint-plugin-react": "^7.14.2",
-        "eslint-plugin-unicorn": "^9.1.1"
+        "eslint-plugin-react": "^7.14.3",
+        "eslint-plugin-unicorn": "^12.0.1"
     },
     "repository": {
         "type": "git",
