@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.0.0-alpha.11 - 2019-10-01
+
+### Changed
+
+- default-param-last: turn on
+- function-call-argument-newline: turn on
+- no-import-assign: turn on
+- prefer-regex-literals: turn on
+- react/prefer-read-only-props: turn off
+- unicorn/consistent-function-scoping: turn on
+- unicorn/expiring-todo-comments: turn on
+- unicorn/prefer-dataset: turn on
+- unicorn/prefer-reflect-apply: turn on
+- unicorn/prefer-string-slice: turn on
+
+### Breaking changes
+
+Now requires:
+
+- eslint@^6.5.0
+- eslint-plugin-unicorn@^12.0.0
+
 ## 1.0.0-alpha.10 - 2019-07-17
 
 ### Changed

@@ -20,7 +20,7 @@ First, install this shared configuration and the required plugins:
 npm install --save-dev @wealthsystems/eslint-config eslint-plugin-import eslint-plugin-promise eslint-plugin-react eslint-plugin-unicorn
 
 # yarn
-yarn add @wealthsystems/eslint-config eslint-plugin-import eslint-plugin-promise eslint-plugin-react eslint-plugin-unicorn --dev
+yarn add --dev @wealthsystems/eslint-config eslint-plugin-import eslint-plugin-promise eslint-plugin-react eslint-plugin-unicorn
 ```
 
 Then, add `@wealthsystems/eslint-config` in your `.eslintrc` file:

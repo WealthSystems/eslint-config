@@ -1,6 +1,6 @@
 {
     "name": "@wealthsystems/eslint-config",
-    "version": "1.0.0-alpha.10",
+    "version": "1.0.0-alpha.11",
     "description": "Wealth Systems' ESLint configuration",
     "author": "Wealth Systems Informática Ltda.",
     "license": "MIT",
