@@ -10,6 +10,7 @@ The [ESLint](https://eslint.org) shared configuration to be used in all JavaScri
 - eslint-plugin-promise: ^4.2.0
 - eslint-plugin-react: ^7.14.0
 - eslint-plugin-unicorn: ^12.0.0
+- eslint-plugin-enforce-ids-in-jsx: ^1.0.0
 
 ## Installation
 

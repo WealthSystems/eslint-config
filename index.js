@@ -18,6 +18,7 @@ module.exports = {
         'promise',
         'react',
         'unicorn',
+        'enforce-ids-in-jsx',
     ],
     settings: {
         'import/extensions': [
@@ -88,6 +89,8 @@ module.exports = {
         'dot-notation': ['error', {
             allowKeywords: true,
         }],
+        'enforce-ids-in-jsx/missing-ids': 1,
+        'enforce-ids-in-jsx/unique-ids': 1,
         'eol-last': ['error', 'always'],
         eqeqeq: ['error', 'always', {
             null: 'ignore',
@@ -725,7 +728,11 @@ module.exports = {
             indentLogicalExpressions: true,
         }],
         'react/jsx-indent-props': ['error', 4],
-        'react/jsx-key': 'off',
+        'react/jsx-key': ['warn', {
+            checkFragmentShorthand: true,
+            checkKeyMustBeforeSpread: true,
+            warnOnDuplicates: true,
+        }],
         'react/jsx-max-depth': 'off',
         'react/jsx-max-props-per-line': ['error', {
             maximum: 1,
