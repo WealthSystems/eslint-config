@@ -1,6 +1,6 @@
 {
     "name": "@wealthsystems/eslint-config",
-    "version": "1.0.0-alpha.11",
+    "version": "1.0.0",
     "description": "Wealth Systems' ESLint configuration",
     "author": "Wealth Systems Informática Ltda.",
     "license": "MIT",
@@ -25,7 +25,6 @@
     "devDependencies": {
         "eslint": "^6.5.1",
         "eslint-find-rules": "^3.4.0",
-        "eslint-plugin-enforce-ids-in-jsx": "^1.0.0",
         "eslint-plugin-import": "^2.18.2",
         "eslint-plugin-promise": "^4.2.1",
         "eslint-plugin-react": "^7.14.3",

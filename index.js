@@ -728,11 +728,7 @@ module.exports = {
             indentLogicalExpressions: true,
         }],
         'react/jsx-indent-props': ['error', 4],
-        'react/jsx-key': ['warn', {
-            checkFragmentShorthand: true,
-            checkKeyMustBeforeSpread: true,
-            warnOnDuplicates: true,
-        }],
+        'react/jsx-key': 'off',
         'react/jsx-max-depth': 'off',
         'react/jsx-max-props-per-line': ['error', {
             maximum: 1,
