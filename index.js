@@ -18,6 +18,7 @@ module.exports = {
         'promise',
         'react',
         'unicorn',
+        'enforce-ids-in-jsx',
     ],
     settings: {
         'import/extensions': [
@@ -88,6 +89,8 @@ module.exports = {
         'dot-notation': ['error', {
             allowKeywords: true,
         }],
+        'enforce-ids-in-jsx/missing-ids': 1,
+        'enforce-ids-in-jsx/unique-ids': 1,
         'eol-last': ['error', 'always'],
         eqeqeq: ['error', 'always', {
             null: 'ignore',
